@@ -10,6 +10,32 @@
         "schema_id": "datatype.string",
         "properties": {
           "value": "",
+          "scope": "input",
+          "name": "observable_value",
+          "type": "datatype.string",
+          "is_required": false,
+          "is_invisible": false
+        },
+        "unique_name": "variable_workflow_01NND6UQ8XYJH6B0U3uC1rEF4vQTtxgn6Sc",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "local",
+          "name": "results_jsonpath",
+          "type": "datatype.string",
+          "is_required": false,
+          "is_invisible": false
+        },
+        "unique_name": "variable_workflow_01NMT2KV0Z3PO2yPW4YTw6q9E7nvnSYyNFI",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
           "scope": "local",
           "name": "results_loop",
           "type": "datatype.string",
@@ -43,32 +69,6 @@
           "is_invisible": false
         },
         "unique_name": "variable_workflow_01NMR7ZIC0RY17jDOcvypTNhQEgMXdkPKhW",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "local",
-          "name": "results_jsonpath",
-          "type": "datatype.string",
-          "is_required": false,
-          "is_invisible": false
-        },
-        "unique_name": "variable_workflow_01NMT2KV0Z3PO2yPW4YTw6q9E7nvnSYyNFI",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "input",
-          "name": "observable_value",
-          "type": "datatype.string",
-          "is_required": false,
-          "is_invisible": false
-        },
-        "unique_name": "variable_workflow_01NND6UQ8XYJH6B0U3uC1rEF4vQTtxgn6Sc",
         "object_type": "variable_workflow"
       }
     ],
